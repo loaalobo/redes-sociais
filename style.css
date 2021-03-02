@@ -15,23 +15,51 @@ section {
 article {
     background-color: white;
     color: black;
-    padding: 10px; /*espaçamento entre conteúdo e borda*/
+    padding: 15px; /*espaçamento entre conteúdo e borda*/
     border: 3px solid black;
-    margin: 10px; /*espaçamento entre elementos*/
+    margin-bottom: 45px; /*espaçamento entre elementos*/
+    border-radius: 1%;
+}
+
+#fotoperfil {
+    border-radius: 50%;
+    border: 3px solid rgb(197, 162, 149);
+}
+
+.img-codigo {
+    margin-bottom: 45px;
+    border: 2px solid black;
+    border-radius: 1%;
 }
 
 a {
-    color: rgb(182, 48, 0);
+    color: rgb(219, 133, 102);
 }
 
 #title, #subtitle {
     color: rgb(197, 162, 149);
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 #linkedin, #github, #facebook {
     color: rgb(182, 48, 0);
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .topic {
     color: rgb(61, 27, 4);
+}
+
+.rodape-artigo {
+    text-align: center;
+    font-size: smaller;
+}
+
+#menu, footer {
+    background-color: rgba(168, 168, 168, 0.103);
+    padding: 10px; /*espaçamento entre conteúdo e borda*/
+    border: 2px solid white;
+    margin: 10px; /*espaçamento entre elementos*/
 }
