@@ -2,14 +2,27 @@ body {
     background-color:  black;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
 }
 article {
     background-color: white;
     color: black;
 }
 section {
-    background-color: rgba(87, 85, 85, 0.308);
+    background-color: rgba(168, 168, 168, 0.212);
 }
 a {
     color: rgb(182, 48, 0);
+}
+
+#title, #subtitle {
+    color: rgb(197, 162, 149);
+}
+
+#linkedin, #github, #facebook {
+    color: rgb(182, 48, 0);
+}
+
+.topic {
+    color: rgb(61, 27, 4);
 }
