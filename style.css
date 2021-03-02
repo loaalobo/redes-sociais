@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(39, 39, 39);
+    background-color:  black;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -8,5 +8,8 @@ article {
     color: black;
 }
 section {
-    background-color: rgba(0, 0, 0, 0.466);
+    background-color: rgba(87, 85, 85, 0.308);
+}
+a {
+    color: rgb(182, 48, 0);
 }
