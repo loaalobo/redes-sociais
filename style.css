@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+article {
+    background-color: white;
+    color: black;
+}
+section {
+    background-color: rgba(0, 0, 0, 0.466);
+}
