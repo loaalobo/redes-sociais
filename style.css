@@ -3,6 +3,7 @@ body {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
+    margin: auto;
 }
 
 section {
@@ -21,9 +22,23 @@ article {
     border-radius: 1%;
 }
 
-#fotoperfil {
+#header-principal {
+    background-color:rgba(168, 168, 168, 0.103);
+    padding: 10px; /*espaçamento entre conteúdo e borda*/
+    border: 2px solid white;
+    margin: 10px; /*espaçamento entre elementos*/
+}
+
+.title {
+    color: rgb(197, 162, 149);
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.fotoperfil {
     border-radius: 50%;
-    border: 3px solid rgb(197, 162, 149);
+    border: 2px solid rgba(197, 162, 149, 0.767);
 }
 
 .img-codigo {
@@ -34,12 +49,16 @@ article {
 
 a {
     color: rgb(219, 133, 102);
+    text-decoration: none;
 }
 
-#title, #subtitle {
-    color: rgb(197, 162, 149);
-    margin: 0;
-    margin-bottom: 15px;
+.item-de-lista {
+    display: inline-block;
+    list-style: none;
+    background-color: rgba(59, 58, 58, 0.404);
+    margin: 5px;
+    border: 2px solid rgb(85, 77, 77);
+    padding: 10px;
 }
 
 #linkedin, #github, #facebook {
@@ -48,18 +67,20 @@ a {
     margin-bottom: 15px;
 }
 
-.topic {
+.topicos-dos-artigos {
     color: rgb(61, 27, 4);
+    text-decoration: underline;
 }
 
-.rodape-artigo {
+.rodape-dos-artigos {
     text-align: center;
     font-size: smaller;
 }
 
-#menu, footer {
+footer {
     background-color: rgba(168, 168, 168, 0.103);
     padding: 10px; /*espaçamento entre conteúdo e borda*/
     border: 2px solid white;
     margin: 10px; /*espaçamento entre elementos*/
 }
+
